@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="os_schedualing.FirstPageController">
+   <children>
+      <Button fx:id="RRBtn" layoutX="71.0" layoutY="142.0" mnemonicParsing="false" onAction="#RRscheduling" prefHeight="37.0" prefWidth="161.0" text="RR" />
+      <Button fx:id="MLFQBtn" layoutX="71.0" layoutY="82.0" mnemonicParsing="false" onAction="#MLFQScheduling" prefHeight="37.0" prefWidth="161.0" text="MLFQ" />
+      <TextField fx:id="txtFieldQ" layoutX="71.0" layoutY="218.0" prefHeight="31.0" prefWidth="161.0" />
+   </children>
+</Pane>

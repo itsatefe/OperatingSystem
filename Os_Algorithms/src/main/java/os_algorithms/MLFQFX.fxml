@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="1044.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="os_algorithms.MLFQFXController">
+   <children>
+      <Line endX="700.0" layoutX="280.0" layoutY="480.0" startX="-250.0" />
+      <Line endX="420.0" layoutX="-160.0" layoutY="290.0" rotate="90.0" />
+      <Label fx:id="AWT" layoutX="981.0" layoutY="14.0" />
+      <Label fx:id="ATT" layoutX="995.0" layoutY="35.0" />
+      <Label layoutX="865.0" layoutY="14.0" text="AWT" />
+      <Label layoutX="868.0" layoutY="35.0" text="ATT" />
+   </children>
+</Pane>

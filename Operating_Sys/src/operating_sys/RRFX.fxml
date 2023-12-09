@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="operating_sys.RRFXController">
+   <children>
+      <Line fx:id="VerLine" endX="143.0" layoutX="328.0" layoutY="472.0" startX="-293.0" />
+      <Line fx:id="HorLine" endX="412.0" layoutX="-138.0" layoutY="292.0" rotate="90.0" />
+   </children>
+</Pane>
